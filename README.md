@@ -11,13 +11,13 @@
             background-color: #f2f2f2;
         }
 
-        h2 {
+ h2 {
             color: red;
             text-align: center;
             margin-bottom: 30px;
         }
         
-        form {
+ form {
             max-width: 600px;
             margin: 0 auto;
             background-color: #fff;
@@ -27,14 +27,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        label {
+label {
             display: block;
             margin-bottom: 10px;
             font-weight: bold;
             color: blue;
         }
 
-        input[type="text"],
+ input[type="text"],
         input[type="email"],
         input[type="password"],
         input[type="number"],
@@ -49,15 +49,15 @@
             font-size: 16px;
         }
 
-        select {
+select {
             width: 100%;
         }
 
-        textarea {
+textarea {
             height: 100px;
         }
 
-        input[type="file"],
+input[type="file"],
         input[type="submit"],
         input[type="reset"] {
             background-color: blue;
@@ -69,21 +69,21 @@
             border-radius: 5px;
         }
 
-        input[type="file"] {
+input[type="file"] {
             width: auto;
         }
 
-        input[type="submit"]:hover,
+input[type="submit"]:hover,
         input[type="reset"]:hover {
             background-color: #003366;
         }
 
-        /* Style checkboxes */
+  /* Style checkboxes */
         input[type="checkbox"] {
             margin-right: 5px;
         }
 
-        .checkbox-label {
+ .checkbox-label {
             font-weight: normal;
         }
     </style>
@@ -94,47 +94,47 @@
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName">
         
-        <label for="lastName">Last Name:</label>
+<label for="lastName">Last Name:</label>
         <input type="text" id="lastName" name="lastName">
         
-        <label for="gender">Gender:</label>
+<label for="gender">Gender:</label>
         <select id="gender" name="gender">
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
         
-        <label for="age">Age:</label>
+ <label for="age">Age:</label>
         <input type="number" id="age" name="age">
         
-        <label for="dob">Date of Birth:</label>
+ <label for="dob">Date of Birth:</label>
         <input type="date" id="dob" name="dob">
         
-        <label for="email">Email Address:</label>
+ <label for="email">Email Address:</label>
         <input type="email" id="email" name="email">
         
-        <label for="password">Password:</label>
+ <label for="password">Password:</label>
         <input type="password" id="password" name="password" minlength="8">
         
-        <label for="confirmPassword">Confirm Password:</label>
+<label for="confirmPassword">Confirm Password:</label>
         <input type="password" id="confirmPassword" name="confirmPassword">
         
-        <label for="phoneNumber">Phone Number:</label>
+<label for="phoneNumber">Phone Number:</label>
         <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}">
         
-        <label for="address">Address:</label>
+<label for="address">Address:</label>
         <textarea id="address" name="address"></textarea>
         
-        <label for="state">State:</label>
+<label for="state">State:</label>
         <select id="state" name="state">
             <option value="" disabled selected>-Select your state..-</option>
             <option value="state1">State 1</option>
             <option value="state2">State 2</option>
         </select>
         
-        <label for="pinCode">Pin Code:</label>
+<label for="pinCode">Pin Code:</label>
         <input type="text" id="pinCode" name="pinCode">
         
-        <label for="hobbies">Hobbies:</label><br>
+<label for="hobbies">Hobbies:</label><br>
         <input type="checkbox" id="music" name="hobbies" value="music">
         <label class="checkbox-label" for="music">Music</label><br>
         <input type="checkbox" id="movies" name="hobbies" value="movies">
@@ -144,16 +144,16 @@
         <input type="checkbox" id="travel" name="hobbies" value="travel">
         <label class="checkbox-label" for="travel">Travel</label><br>
         
-        <label for="photo">Upload Photo:</label>
+<label for="photo">Upload Photo:</label>
         <input type="file" id="photo" name="photo" accept="image/*">
         
-        <label for="declaration">I hereby declare that the above information provided is true and correct.</label>
+<label for="declaration">I hereby declare that the above information provided is true and correct.</label>
         <input type="checkbox" id="declaration" name="declaration">
         
-        <label for="robot">I'm not a robot:</label>
+<label for="robot">I'm not a robot:</label>
         <input type="checkbox" id="robot" name="robot">
         
-        <input type="submit" value="Register">
+ <input type="submit" value="Register">
         <input type="reset" value="Reset">
     </form>
 </body>
@@ -174,26 +174,26 @@
             padding: 0;
         }
 
-        h2 {
+h2 {
             text-align: center;
             margin-top: 30px;
             margin-bottom: 30px;
         }
         
-        form {
+ form {
             max-width: 400px;
             margin: 0 auto;
             padding: 30px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        label {
+label {
             display: block;
             margin-bottom: 10px;
             font-weight: bold;
         }
 
-        input[type="text"],
+ input[type="text"],
         input[type="password"],
         input[type="number"],
         input[type="tel"],
@@ -216,7 +216,7 @@
             border-radius: 5px;
         }
 
-        input[type="submit"]:hover,
+ input[type="submit"]:hover,
         input[type="reset"]:hover {
             background-color: #001a33;
         }
@@ -228,13 +228,13 @@
         <label for="cardHolder">Card Holder's Name:</label>
         <input type="text" id="cardHolder" name="cardHolder">
         
-        <label for="cardNumber">Card Number:</label>
+<label for="cardNumber">Card Number:</label>
         <input type="text" id="cardNumber" name="cardNumber">
         
-        <label for="expiryDate">Card Expiry Date:</label>
+ <label for="expiryDate">Card Expiry Date:</label>
         <input type="month" id="expiryDate" name="expiryDate">
         
-        <label for="cvv">Card CVV:</label>
+<label for="cvv">Card CVV:</label>
         <input type="password" id="cvv" name="cvv" minlength="3" maxlength="4">
         <input type="submit" value="Pay Now">
     </form>
